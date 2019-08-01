@@ -1,0 +1,5 @@
+To Generate ssh key
+        type in terminal ssh-keygen -t ed25519 -C "email@example.com"
+        go to /Users/tikagegamov/.ssh
+        Open id_ed25519.pub - copy all text there
+        go to Gitlab->settings->SSH keys  and paste in Key textbox and add the key
