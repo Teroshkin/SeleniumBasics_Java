@@ -1,0 +1,56 @@
+
+Cоздание проекта
+
+        1. Создаем Maven project (file ->New->Project> Maven Project
+        2. Отмечаем Create a simple structure чекбокс( в idea не надо)
+        3. Заполняем Group Id & Artifact Id & Name
+        4. Добавляем dependencies прямо в  pom.xml из mvn.repository.com/
+
+
+        Seleinum WebDriver
+        Webdriver - такая сущность которая является браузером, которая позволяет иммитировать все действия пользователя (любые манипуляции с браузером)
+        Web Element - вторая важная сущность (кнопки, ссылки, инпуты и др. )
+
+        Cкрипты для запуска Webdriver
+
+        Firefox
+        Webdriver driver = new Firefox Driver ();
+        +geckodriver (можно установить прописав команду brew install geckodriver в терминал)
+
+        Chrome:
+        System.setProperty(«webdrive.chrome.driver», '/Users/tikagegamov/Downloads/chromedriver»);
+        WebDriver driver = new ChromeDriver();
+        https://sites.google.co/a/chromium.org/chromedriver/
+
+        МЕТОДЫ  Webdriver
+
+        driver.get(«…») - открыть Url
+        driver.findElement(By.xpath(«…»)) - найти 1 элемент
+        driver.findElemements(By.xpath(«…»)) - найти несколько элементов
+        driver.switchTo.frame("....") - переключиться в фрейм
+        driver.manage().deleteAllCookies() - очистить coockies
+        driver.navigate().refresh() - обновить страницу
+        driver.quit(); - закрыть браузер
+
+        МЕТОДЫ Webelement
+
+        WebElement elemen = driver.findElement(By.xpath("..."));
+        element.click() - нажать на элемент
+        element.clear() - очистит введенный текст
+        element.sendKeys("...") - ввести указанный текст
+        element.sendKeys(Keys.Enter) - нажать кнопку
+        element.getAttribute("class") - взять значение указанного атрибута
+        element.isDisplayed() - вернет true, если элемент отображается
+        // WebElement loginInput = driver.findElement(By.id("j_username")); // Search elements by Id
+        /*
+        Поиск лучше осуществлять по id, это наименее динамическая часть кода по сравнение с xpath или поиском
+        по классу
+        Но часто бывает что Id не используется у элементов
+         */
+
+        TestNG - ряд атрибутов
+@BeforeClass
+@BeforeMethod
+@Test
+@AfterMethod
+@AfterClass
