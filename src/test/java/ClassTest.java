@@ -17,4 +17,5 @@ public class ClassTest {
     public int getNumber(){
         return 1; // вернет едиинчку
     }
+
 }
