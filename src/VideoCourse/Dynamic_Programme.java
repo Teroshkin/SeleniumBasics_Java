@@ -1,4 +1,4 @@
-package Caleb_Java;
+package VideoCourse;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Java;
+package ProJava;
 
 public class HelloWorldPart2 {
     public static void second (String[] args) {
