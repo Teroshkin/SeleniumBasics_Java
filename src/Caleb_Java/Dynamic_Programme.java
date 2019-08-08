@@ -1,4 +1,4 @@
-package Java;
+package Caleb_Java;
 
 import java.util.Scanner;
 
@@ -17,6 +17,9 @@ public class Dynamic_Programme {
 //class - contains everything
 //methods - do something
 // arguments - what you pass to a method (part of the calling)
-//parameters
+//parameters Variables to store arguments
 //statements - telling the computer something
-//properties - store something`
+//properties - store something
+//access modifier (public) - who can use?
+//static - no instance of class is needed
+//object - instance of a class
