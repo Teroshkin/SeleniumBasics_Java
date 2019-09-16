@@ -1,21 +1,35 @@
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
+/**
+ *  ClassTest
+ */
+
 
 public class ClassTest {
-    // Чтобы  сделать переменную доступную для всех методов нужно вынести ее в сам класс
-    int number = 1;
+    int number = 1; // обьект
     @Test
-    public void test (){ // обьявленное в одном методе не может быть обьявленно в рамках второго метода
-        // int number =1;
-        String sometext ="automation";
-        System.out.println(number);
-        System.out.println(getNumber());
-    }
-    public void test2 (){ // обьявленное в одном методе не может быть обьявленно в рамках второго метода
-        // int number =1;
-        System.out.println(number);
-    }
-    public int getNumber(){
-        return 1; // вернет едиинчку
+
+    public void test(){
+        System.out.println(number);//команада
+        System.out.println(getNumber());//команда. - cначала вызовется getNumber, он выведет нам один, а потом выведется System.out, которые покажется "1" в консоле
+
     }
 
+    public int getNumber(){
+        return 3; // что сделает этот метод? он его вызовет и вернет нам единичку
+    }
+
+    @Test
+    public void test2(){
+        printNumber(number);
+        String someText = "automation"; // обьект
+    }
+    //нельзя обьявлять  одну и ту же переменную в разных методах - !
+    //чтобы получить доступ к одной переменной из всех методов, то ее нужно вынести в класс, тогда в самом методе уже не надо обьявлять тип
+    // В тестовые методы обычно ничего не передаем
+    // Если метод обычный
+    public void printNumber(int number){
+        this.number=4 ;
+        System.out.println(number);
+    }
 }
+

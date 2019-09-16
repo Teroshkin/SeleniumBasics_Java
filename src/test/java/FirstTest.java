@@ -6,6 +6,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+
+
 public class FirstTest {
     WebDriver driver; // Переменная обьявляется внутри класса. Когда обьявляем внутри класса, ее видят все, когда внутри метода, ее видят только метод
     //WebDriver driver - это переменная;
