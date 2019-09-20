@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class JavaScanner2 {
-    public static void main(String[] args) {
+public class JavaScanner2_Lesson14 {
+    public static void main (String[] args) {
 
         Scanner k = new Scanner(System.in);
         System.out.println ("Введите 2 любых целых числа: ");
