@@ -1,3 +1,5 @@
+package Vertex;
+
 public class Concatenation_Lesson12 {
     //конкатенация = обьединение строк
     public static void main (String[]args){

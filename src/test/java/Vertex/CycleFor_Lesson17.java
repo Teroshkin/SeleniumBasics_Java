@@ -1,3 +1,5 @@
+package Vertex;
+
 public class CycleFor_Lesson17 {
     //  ЦИКЛ for называется цикл со "со счетчиком"
     public static void main (String[]args){

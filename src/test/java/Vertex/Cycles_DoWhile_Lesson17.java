@@ -1,3 +1,5 @@
+package Vertex;
+
 public class Cycles_DoWhile_Lesson17 {
     // ЦИКЛ  do... while  "Делать до тех пор пока" - одна из вариаций цикла while
 

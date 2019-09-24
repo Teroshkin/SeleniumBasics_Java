@@ -1,3 +1,5 @@
+package Vertex;
+
 import java.util.Scanner;
 
 public class RelativeOperatorIF_Lesson16_2 {

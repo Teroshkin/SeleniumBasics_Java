@@ -1,3 +1,5 @@
+package Vertex;
+
 public class Cycles_While_Lesson17 {
     public static void main (String[]args){
         //Цикл while еще называют цикл "пока" или "до тех пор пока".

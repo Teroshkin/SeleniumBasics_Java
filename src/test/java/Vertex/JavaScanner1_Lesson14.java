@@ -1,3 +1,5 @@
+package Vertex;
+
 import java.util.Scanner; // импорт сканнера
 // https://vertex-academy.com/tutorials/ru/rabota-so-skannerom-v-java/ - Работа со сканнером в JAVA - VERTEX
 public class JavaScanner1_Lesson14 {

@@ -1,3 +1,5 @@
+package Vertex;
+
 import java.util.Scanner;
 /*
 Конструкции с операторами if else, предлагающими

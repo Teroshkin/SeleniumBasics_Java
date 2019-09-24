@@ -1,3 +1,5 @@
+package Vertex;
+
 import java.util.Scanner;
 
 public class JavaScanner2_Lesson14 {
