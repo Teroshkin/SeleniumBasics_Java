@@ -13,5 +13,6 @@ public class RelativeOperatorIF_Lesson16_2 {
         else {
             System.out.println("Вы ввели число не равно 1");
         }
+
     }
 }
