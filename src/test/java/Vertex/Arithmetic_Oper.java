@@ -18,6 +18,8 @@ public class Arithmetic_Oper {
         System.out.println(a); //  на консоле будет вывведено 22
         b=2* ++sum; // в данном случае операция 2* 12+1
         System.out.println(b); // на консоле будет выведено 26
+      double d = b%15;
+      System.out.println(d);
 
         /*
         Существует 2 формы инкремента и декремента:

@@ -9,6 +9,4 @@ public class JavaScanner1_Lesson14 {
         int number = scan.nextInt(); //  метод scan.nextInt() считывает число введенное в консоле, которое присвоится переменной int number
         System.out.println("Вы ввели число " + number);
     }
-
 }
-
