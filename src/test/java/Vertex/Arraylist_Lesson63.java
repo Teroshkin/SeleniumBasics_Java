@@ -26,7 +26,7 @@ public class Arraylist_Lesson63 {
 
 
             // Решение с помощью цикла for
-            ArrayList<Integer> list = new ArrayList<>();
+            ArrayList<Integer> list = new ArrayList();
             list.add(51);
             list.add(136);
             list.add(387);
@@ -41,7 +41,7 @@ public class Arraylist_Lesson63 {
         }
         // Решение с помощью цикла for each
     static void b (){
-        ArrayList <Integer> list = new ArrayList<>();
+        ArrayList <Integer> list = new ArrayList();
         list.add(51);
         list.add(136);
         list.add(387);
